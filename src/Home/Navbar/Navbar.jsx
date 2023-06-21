@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="nav-bar">
+    <div className="nav-bar theme-color">
       <h2>Incubyte</h2>
       <div className="nav-options">
         <h2>About Us</h2>
