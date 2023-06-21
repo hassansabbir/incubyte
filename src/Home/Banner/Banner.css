@@ -1,0 +1,73 @@
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(155, 201, 231);
+  background-image: url("../../assets/Ellipse2.png"), url("../../assets/Ellipse1-1.png"), url("../../assets/Ellipse1.png");
+  background-position: top , left bottom, right ;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 850px;
+}
+
+.banner-title{
+  font-size: 60px;
+  margin: 0;
+  padding-top: 150px;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.banner-description{
+  margin: 0;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.banner-img{
+  padding: 0 0 80px 0;
+  background-color: rgb(139, 189, 255);
+  border-radius: 100%;
+  height: 500px;
+  width: 550px;
+  margin: 70px auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(155, 201, 231);
+    background-image: url("../../assets/Ellipse2.png"), url("../../assets/Ellipse1-1.png"), url("../../assets/Ellipse1.png");
+    background-position: top , left bottom, right ;
+    background-repeat: no-repeat;
+    background-size: 60vw, 20vw, 20vw;
+    padding: 0;
+    height: 850px;
+  }
+  .banner-title{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+    gap: 12px;
+    margin: 0 auto;
+  }
+  .banner-description{
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-img{
+    padding: 0 0 80px 0;
+    background-color: rgb(139, 189, 255);
+    border-radius: 100%;
+    height: 200px;
+    width: 300px;
+    margin: 70px auto;
+  }
+}

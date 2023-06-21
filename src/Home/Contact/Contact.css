@@ -1,0 +1,36 @@
+.contactSection{
+  background-image: url("../../assets/Rectangle9.png");
+  padding: 40px;
+}
+
+.contactTitle{
+  font-size: 45px;
+  text-align: center;
+}
+
+.contactDescription{
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn-div{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-btn{
+  color: white;
+  background-color: rgb(53, 53, 219);
+  font-size: 25px;
+  padding: 20px 40px;
+  border: 0 solid transparent;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .inputImg{
+    width: 100%;
+  }
+}

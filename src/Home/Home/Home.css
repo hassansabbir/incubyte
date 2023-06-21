@@ -1,0 +1,10 @@
+.root{
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter';
+
+}
+
+.theme-color{
+  color: rgb(43, 79, 179);
+}
